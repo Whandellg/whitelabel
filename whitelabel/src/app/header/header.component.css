@@ -22,7 +22,7 @@
     display: none; }
   @media (min-width: 992px) {
     .main-header {
-      height: 6rem;
+      height: 4rem;
       max-width: 860px;
       padding: 0; }
       .main-header > .cta-button {
@@ -103,11 +103,9 @@
           .main-nav > .items-list > .item:hover:after {
             opacity: 1;
             transition: opacity .3s ease-in-out; } }
-
-
             .cta-button {
               width: 50%;
-              height: 50%;
+              height: 70%;
               background-image: linear-gradient(to right, #31d35c, #2bb7da);
               font-size: 1.5rem;
               font-weight: 500;
@@ -121,5 +119,5 @@
               .cta-button:hover {
                 opacity: 0.75;
                 transition: opacity .3s ease-in-out; }
-
-                
+                /* <!-- HEADER ACABA AQUI --> */
+  
