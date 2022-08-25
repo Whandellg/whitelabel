@@ -96,7 +96,7 @@
             left: 0;
             width: 100%;
             height: 5px;
-            background-image: linear-gradient(to right, #31d35c, #2bb7da);
+            background-image: linear-gradient(to right,rgb(165, 118, 129), rgb(175, 47, 77));
             opacity: 0;
             transition: opacity .3s ease-in-out; }
           .main-nav > .items-list > .item:hover > .link {
@@ -107,7 +107,7 @@
             .cta-button {
               width: 50%;
               height: 70%;
-              background-image: linear-gradient(to right, #31d35c, #2bb7da);
+              background-image: linear-gradient(to right,rgb(165, 118, 129),rgb(165, 118, 129));
               font-size: 1.5rem;
               font-weight: 500;
               color: white;
