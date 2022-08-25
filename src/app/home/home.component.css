@@ -1,0 +1,45 @@
+.home {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to right,
+    rgba(207, 177, 180, 0.8),
+    rgba(255, 244, 241, 0.8)
+  );
+  /* opacity: 0.5; */
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.h4 {
+  color: rgb(165, 118, 129);
+  text-shadow: rgb(179, 166, 166) 0.1em 0.1em 0.2em;
+}
+
+.card-widget {
+  width: 40%;
+}
+
+.form-widget {
+  background: white;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.btn-purple {
+  background-color: rgb(165, 118, 129);
+  color: white;
+}
+
+.card-image {
+  width: 50%;
+  background-image: url("../../assets/image/skincare.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.6rem;
+  opacity: 0.7;
+}
