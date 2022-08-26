@@ -9,18 +9,17 @@ body {
 }
 
 /* Float four columns side by side */
-.column {
+.column{
   float: right;
   width: 25%;
   padding: 0 45px;
-  
+
 }
 
 /* Remove extra left and right margins, due to padding */
-.row {
+.row, r {
   margin: 0 65px;
-  padding: 0 45px;
- 
+ padding-bottom: 10px;
 }
 
 /* Clear floats after the columns */
@@ -44,23 +43,25 @@ body {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   padding: 4px;
   text-align: center;
-  background-color: hsla(308, 98%, 51%, 0.055);
-  gap: 2.4rem;
+  background-color: hsla(308, 98%, 51%, 0.007);
 }
+
+  .card-img-top{
+  
+  }
+
+
 h2{
- 
+padding: 20px;
   color: #141414;
   letter-spacing: 1px;
 }
 p{
   color: #9698a6;
-  
+  font-size: 12px;
 }
 
 .center{
   text-align: center;
   
-}
-.card-img-top{
- 
 }
