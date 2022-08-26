@@ -1,1 +1,100 @@
-<p>aboutus works!</p>
+<section class="about-us">
+  <div class="d-flex justify-content-center mt-5">
+    <div class="container">
+      <div class="box-contatos row align-items-center py-5 mx-auto">
+        <div class="col-md-6 text">
+          <h1 class="mb-4">Nossos Contatos</h1>
+          <p class="mb-3">
+            Como podemos te ajudar? <br />
+            Você tem alguma dúvida ou está interessado no nosso trabalho? <br />
+            Ficaremos muito felizes e satisfeitos em receber sua mensagem!
+          </p>
+
+          <hr />
+
+          <div class="d-flex flex-column">
+            <div class="row mt-3">
+              <div class="row col-sm-12 contatos">
+                <div class="col-1 text-start">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div class="col-11">
+                  <p>São Paulo</p>
+                </div>
+              </div>
+              <div class="row col-sm-12 contatos">
+                <div class="col-1 text-start">
+                  <i class="bi bi-phone-fill"></i>
+                  <!-- <i class="bi bi-whatsapp"></i> -->
+                </div>
+                <div class="col-11">
+                  <p>(11) 99999-9999</p>
+                </div>
+              </div>
+              <div class="row col-sm-12 contatos mb-4">
+                <div class="col-1 text-start">
+                  <i class="bi bi-envelope-fill"></i>
+                </div>
+                <div class="col-11">
+                  <p>contato.nitechacademy.com.br</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form class="pl-4 text">
+            <div class="single-input">
+              <input
+                formControlName="nome"
+                type="text"
+                class="input"
+                id="nome"
+                required
+              />
+              <label for="nome" class="formLabel">Nome</label>
+            </div>
+
+            <div class="single-input">
+              <input
+                formControlName="email"
+                type="text"
+                class="input"
+                id="email"
+                required
+              />
+              <label for="email" class="formLabel">E-mail</label>
+            </div>
+
+            <div class="single-input">
+              <input
+                formControlName="telefone"
+                type="tel"
+                class="input"
+                id="telefone"
+                required
+              />
+              <label for="telefone" class="formLabel">Telefone</label>
+            </div>
+
+            <div class="single-input">
+              <textarea
+                formControlName="mensagem"
+                type="text"
+                class="input txtarea"
+                id="msg"
+                rows="3"
+                required
+              ></textarea>
+              <label for="msg" class="formLabel">Mensagem</label>
+            </div>
+
+            <div class="buttomEnviar text-center">
+              <button type="submit" class="btn btn-link">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
