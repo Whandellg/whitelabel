@@ -43,10 +43,10 @@
 
 .card-image {
   width: 50%;
-  background-image: url("../../assets/image/skincare.jpg");
+  background-image: url("../../assets/image/clinic-image.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 0.6rem;
-  opacity: 0.4;
+  opacity: 0.7;
 }
