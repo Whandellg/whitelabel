@@ -56,6 +56,10 @@ padding: 20px;
   color: #141414;
   letter-spacing: 1px;
 }
+
+h3{
+  padding-top:10px ;
+}
 p{
   color: #9698a6;
   font-size: 12px;

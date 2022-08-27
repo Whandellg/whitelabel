@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ServiceComponent } from './service/service.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import { UnderConstructionComponent } from './under-construction/under-construction.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,12 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     HeaderComponent,
     FooterComponent,
     ServiceComponent,
-    AboutusComponent
+    AboutusComponent,
+    UnderConstructionComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
