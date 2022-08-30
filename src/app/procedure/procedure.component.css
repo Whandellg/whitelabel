@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&family=Space+Grotesk:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+.container {
+
+  padding-top: 5rem;
+  align-items: center;
+  margin: 0 auto;
+ 
+}
+
+
+
+/*** BOTÕES ***/
+
+.btn-enviado:hover {
+  transform: translateY(-0.5px);
+}
+
+.btn-enviado {
+  width: 100%;
+  background: #0400e7;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+  border: none;
+  
+}
+
+
+
+
+
+/*** TABLE ***/
+
+
+
+table{
+  
+ display:inline-table;
+  text-align: center;
+  border: none;
+  border: 1px solid #ddd;
+  box-shadow: 0px 1px 1px #00000056;
+
+}
+
+.table-responsive{
+    align-items: center;
+  
+
+}
+thead {
+    align-items: center;
+  background-color: #eeabd0;
+
+}
+
+thead th  {
+  padding: 10px 28px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+ 
+ 
+}
+
+tbody td {
+  padding: 10px 0;
+  vertical-align: middle;
+  font-family: "Inter";
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border: none;
+  padding: 15px;
+
+}
+
+.btn-enviado{
+  padding: 12px 10px;
+  
+  
+}
+
+/*** RESPONSIVO ***/
+
+@media screen and (max-width: 992px) {
+  thead th {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  tbody td {
+    font-size: 0.8rem;
+  }
+
+  .btn-respondendo,
+  .btn-enviado {
+    font-size: 0.8rem;
+    padding: 0.7rem 0.8rem;
+  }
+}
