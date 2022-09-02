@@ -17,9 +17,9 @@ body {
 }
 
 /* Remove extra left and right margins, due to padding */
-.row, r {
+.row {
   margin: 0 65px;
- padding-bottom: 10px;
+ padding: 30px;
 }
 
 /* Clear floats after the columns */
@@ -44,8 +44,13 @@ body {
   padding: 4px;
   text-align: center;
   background-color: hsla(308, 98%, 51%, 0.007);
+  transition: all 0.3s ease-out;
 }
+.card:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
 
+}
   .card-img-top{
   
   }
@@ -53,12 +58,14 @@ body {
 
 h2{
 padding: 20px;
-  color: #141414;
+color:#8e563d;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 h3{
   padding-top:10px ;
+  color:#8e563d;
 }
 p{
   color: #9698a6;
