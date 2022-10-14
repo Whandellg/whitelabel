@@ -45,6 +45,7 @@ body {
   text-align: center;
   background-color: hsla(308, 98%, 51%, 0.007);
   transition: all 0.3s ease-out;
+  
 }
 .card:hover {
   transform: translateY(-3px);
@@ -58,21 +59,31 @@ body {
 
 h2{
 padding: 20px;
-color:#8e563d;
+  color: #141414;
   letter-spacing: 1px;
   text-align: center;
 }
 
 h3{
-  padding-top:10px ;
-  color:#8e563d;
-}
-p{
-  color: #9698a6;
-  font-size: 12px;
+  padding-top:5px ;
 }
 
-.center{
+
+.pai{
+  margin: 1%;
   text-align: center;
+  
+}
+
+.container-fluid{
+ 
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  margin: 0px;
+  padding: 0px;
+  grid-template-rows: 2fr 96fr 2fr;
+  grid-template-areas: "h h h"
+                       "a m m"
+                       "f f f"
   
 }
