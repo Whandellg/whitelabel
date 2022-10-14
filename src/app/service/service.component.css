@@ -1,8 +1,7 @@
 * {
   box-sizing:border-box;
   font-size: 1.2rem;
-  font-weight: 500;
-
+  font-weight: 400;
 }
 
 body {
@@ -18,10 +17,9 @@ body {
 }
 
 /* Remove extra left and right margins, due to padding */
-.row{
+.row {
   margin: 0 65px;
  padding: 30px;
- 
 }
 
 /* Clear floats after the columns */
@@ -42,51 +40,50 @@ body {
 
 /* Style the counter cards */
 .card {
-
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
   padding: 4px;
   text-align: center;
   background-color: hsla(308, 98%, 51%, 0.007);
   transition: all 0.3s ease-out;
+  
 }
 .card:hover {
   transform: translateY(-3px);
   cursor: pointer;
 
 }
- 
-.btn-purple {
+  .card-img-top{
+  
+  }
 
-  background-color:#8e563d;
-  color: white;
-  transition: all 0.3s ease-out;
- 
-}
-
-.btn-purple:hover {
-  opacity: 0.85;
-  transform: translateY(-3px);
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.13);
-  transition: opacity 0.3s ease-in-out;
-}
 
 h2{
 padding: 20px;
-color:#8e563d;
+  color: #141414;
   letter-spacing: 1px;
   text-align: center;
 }
 
-h4{
-  padding-top:10px ;
- 
-}
-p{
-  color: #9698a6;
-  font-size: 12px;
+h3{
+  padding-top:5px ;
 }
 
-.center{
+
+.pai{
+  margin: 1%;
   text-align: center;
   
 }
 
+.container-fluid{
+ 
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  margin: 0px;
+  padding: 0px;
+  grid-template-rows: 2fr 96fr 2fr;
+  grid-template-areas: "h h h"
+                       "a m m"
+                       "f f f"
+  
+}
