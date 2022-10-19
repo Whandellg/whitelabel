@@ -1,48 +1,140 @@
+<!-- 
+   <div class="tabelas"> 
 
-    <!-- TABLE -->
-    <div class="table-responsive">
-        <table width=90% border="1" bordercolor="#999999">
-          <thead>
-            <tr class="text-center">
-          
-              <th>Procedimento </th>
-              <th>Clinica</th>
-              <th>Cidade</th>
-              <th>Bairro</th>
-              <th>Duração do procedimento</th>
-              <th>Preço</th>
-              <th>Agendar</th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="text-center">
-              <td>Drenagem linfática</td>
-              <td>Clinestetic</td>
-              <td>João Pessoa</td>
-              <td>Torre</td>
-              <td>01:30min</td>
-              <td><b>R$ 1,200.00</b></td>
-              <td> DATA SELECIONADA</td>
-              <button input id="date" type="date" id="button-basic"  dropdownToggle type="button" class="btn-enviado "> Agendar<span class="caret"></span>
-              </button>
-  
-            </tr>
-            <tr class="text-center">
-              <td>Drenagem linfática</td>
-              <td>Clinestetic</td>
-              <td>João Pessoa</td>
-              <td>Torre</td>
-              <td>01:30min</td>
-              <td><b>R$ 1,200.00</b></td>
-              <td> DATA SELECIONADA</td>
-              <button input id="date" type="date" id="button-basic"  dropdownToggle type="button" class="btn-enviado"> Agendar<span class="caret"></span>
-              </button>
-            </tr>
-          </tbody>
-        </table>
-        <div class="d-flex justify-content-center mt-4">
-          <!-- <pagination [boundaryLinks]="true" [totalItems]="77" previousText="&lsaquo;" nextText="&rsaquo;" firstText="&laquo;" lastText="&raquo;"> -->
-          <!-- </pagination> -->
-        </div>
+
+    <div class="card" style="width:15rem; "  >
+      <div class="card-header">
+       <b> Procedimentos </b>
       </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Microagulhamento</li>
+        <li class="list-group-item">Jato de plasma</li>
+        <li class="list-group-item">Skinbooster</li>
+        <li class="list-group-item">Peeling químico</li>
+        <li class="list-group-item">Radiesse</li>
+        <li class="list-group-item">Elleva</li>
+        <li class="list-group-item">Preenchimento</li>
+        <li class="list-group-item">Intradermoterapia manchas/melasma</li>
+        <li class="list-group-item">Enzima</li>
+        <li class="list-group-item">Carbox</li>
+      </ul>
+    </div>
+  
+     <table  class="table" id="table table-hover">
+      <thead>
+        <tr>
+          <th>Procedimento </th>
+          <th>Clinica</th>
+          <th>Cidade</th>
+          <th>Bairro</th>
+          <th>Duração </th>
+          <th>Preço</th>
+          <th>Agendar</th>
+        </tr>
+      </thead>
+      <tbody>
+  
+        <tr>
+        
+          <td>Drenagem linfática</td>
+          <td>Clinestetic</td>
+          <td>João Pessoa</td>
+          <td>Torre</td>
+          <td>01:30min</td>
+          <td><b>R$ 1,200.00</b></td>
+          <td> DATA SELECIONADA</td>
+          <button  id="button-basic" routerLink="payment" dropdownToggle type="button" class="btn-enviado "> Agendar<span class="caret"></span> </button>
+           
+         
+        </tr>
+     
+        <tr>
+        
+          <td>Drenagem linfática</td>
+          <td>Clinestetic</td>
+          <td>João Pessoa</td>
+          <td>Torre</td>
+          <td>01:30min</td>
+          <td><b>R$ 1,200.00</b></td>
+          <td> DATA SELECIONADA</td>
+          <button input id="date" type="date" id="button-basic"  dropdownToggle type="button" class="btn-enviado "> Agendar<span class="caret"></span>
+          </button>
+        </tr>
+  
+        <tr>
+        
+          <td>Drenagem linfática</td>
+          <td>Clinestetic</td>
+          <td>João Pessoa</td>
+          <td>Torre</td>
+          <td>01:30min</td>
+          <td><b>R$ 1,200.00</b></td>
+          <td> DATA SELECIONADA</td>
+          <button input id="date" type="date" id="button-basic"  dropdownToggle type="button" class="btn-enviado "> Agendar<span class="caret"></span>
+          </button>
+        </tr>
+  
+        <tr>
+        
+          <td>Drenagem linfática</td>
+          <td>Clinestetic</td>
+          <td>João Pessoa</td>
+          <td>Torre</td>
+          <td>01:30min</td>
+          <td><b>R$ 1,200.00</b></td>
+          <td> DATA SELECIONADA</td>
+          <button input id="date" type="date" id="button-basic"  dropdownToggle type="button" class="btn-enviado "> Agendar<span class="caret"></span>
+          </button>
+        </tr>
+        <tr>
+        
+          <td>Drenagem linfática</td>
+          <td>Clinestetic</td>
+          <td>João Pessoa</td>
+          <td>Torre</td>
+          <td>01:30min</td>
+          <td><b>R$ 1,200.00</b></td>
+          <td> DATA SELECIONADA</td>
+          <button input id="date" type="date" id="button-basic"  dropdownToggle type="button" class="btn-enviado "> Agendar<span class="caret"></span>
+          </button>
+        </tr>
+  
+        <tr>
+        
+          <td>Drenagem linfática</td>
+          <td>Clinestetic</td>
+          <td>João Pessoa</td>
+          <td>Torre</td>
+          <td>01:30min</td>
+          <td><b>R$ 1,200.00</b></td>
+          <td> DATA SELECIONADA</td>
+          <button input id="date" type="date" id="button-basic"  dropdownToggle type="button" class="btn-enviado "> Agendar<span class="caret"></span>
+          </button>
+        </tr>
+      </tbody>
+    </table>
+  
+  
+   </div> 
+  
+  
+    -->
+
+
+    
+<section id="UnderConstruction" class="content-section">
+  <div class="container">
+    <img class="imgNitech" src = "../../assets/image/logoNitech_vetor.png" />
+    <h1>Página em construção!</h1>
+    <p>aguarde as novidades que a Nitech Academy está preparando para você!</p>
+    <button class="btn btn-primary" routerLink="">Retornar para Home</button>
+  </div>
+</section>
+
+
+
+
+
+
+
+
