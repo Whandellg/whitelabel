@@ -54,6 +54,7 @@ body {
 }
 p{
   font-size: small;
+  text-transform: lowercase;
 }
 
 h2{

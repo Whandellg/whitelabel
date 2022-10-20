@@ -24,11 +24,12 @@
 }
 .main-header > .logo {
   max-width: 141px;
-  max-height: 22px;
+  max-height: 37px;
   /* text-decoration: none; */
   color: rgb(165, 118, 129) !important;
   font-weight: 500;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 .main-header > .cta-button {
   display: none;
